@@ -26,6 +26,9 @@ class Game {
       form = new Form()
       form.display();
     }
+    
+    //createSprite for car1,car2,car3,car4
+    //create an array 'cars'
   }
 
   play(){
