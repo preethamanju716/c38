@@ -39,7 +39,15 @@ class Game {
 
     if(allPlayers !== undefined){
       var display_position = 130;
+      //create array index
+      //create x and y position of the cars
       for(var plr in allPlayers){
+        //increment index
+        //x position increment
+        //yposition
+        //assign the values to car array
+        //give red colour to current player
+        //camera
         if (plr === "player" + player.index)
           fill("red")
         else
